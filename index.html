@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="The personal portfolio of Tesh Moses, a Software Engineering student, media creative and photographer.">
+
+    <title>Tesh Moses | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Animated background -->
+    <div class="background" aria-hidden="true">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home" class="logo">TESH<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navLinks">
+            ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Interests</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Hero section -->
+        <header class="hero" id="home">
+
+            <div class="status reveal">
+                <span class="status-dot"></span>
+                SOFTWARE ENGINEERING STUDENT
+            </div>
+
+            <!-- Put your photo in this folder as profile.jpg -->
+            <div class="profile-frame reveal">
+                <img src="./profile.jpg"
+                     alt="Portrait of Tesh Moses"
+                     onerror="this.style.display='none'; this.parentElement.classList.add('no-photo'); this.parentElement.setAttribute('aria-label','Profile photo placeholder');">
+                <span class="photo-placeholder" aria-hidden="true">TM</span>
+            </div>
+
+            <p class="intro-label reveal">HELLO, WORLD! I'M</p>
+
+            <h1 class="reveal">
+                Tesh <span class="gradient">Moses.</span>
+            </h1>
+
+            <p class="hero-description reveal">
+                A curious mind, a creative spirit and a future-focused
+                technologist, passionate about
+                <span id="typing" class="typing">Software Engineering</span><span class="cursor">|</span>.
+                I love turning ideas into reality through technology and creativity.
+            </p>
+
+            <div class="buttons reveal">
+                <a href="#about" class="btn primary">Discover My Story ↘</a>
+                <a href="#projects" class="btn secondary">Explore My Work</a>
+            </div>
+
+            <a href="#about" class="scroll-hint">
+                SCROLL TO EXPLORE ↓
+            </a>
+        </header>
+
+        <!-- About section -->
+        <section id="about">
+            <div class="section-heading reveal">
+                <span class="eyebrow">01 / ABOUT ME</span>
+                <h2>More than <span class="gradient">what you see.</span></h2>
+                <p>A little about the person behind the screen.</p>
+            </div>
+
+            <div class="about-card reveal">
+                <p>
+                    My name is <strong>Tesh Moses</strong>. I'm a Software
+                    Engineering student at the
+                    <strong>Nigerian Army University, Biu (NAUB)</strong>,
+                    building my knowledge of programming, computer science
+                    and technology.
+                </p>
+
+                <p>
+                    Outside academics, I'm a <strong>media creative,
+                    photographer and designer</strong>. I enjoy capturing
+                    moments, creating visual content and communicating
+                    stories through photography and design.
+                </p>
+
+                <p>
+                    I'm also interested in artificial intelligence,
+                    web development and understanding how technology
+                    works beneath the surface. I believe in learning by
+                    doing, asking questions and building real projects.
+                </p>
+
+                <p>
+                    My goal is to combine technical knowledge with
+                    creative thinking to develop useful solutions,
+                    meaningful experiences and work that makes a difference.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills and interests -->
+        <section id="skills">
+            <div class="section-heading reveal">
+                <span class="eyebrow">02 / MY INTERESTS</span>
+                <h2>What drives <span class="gradient">me.</span></h2>
+                <p>The technical and creative worlds I'm exploring.</p>
+            </div>
+
+            <div class="grid">
+
+                <article class="card reveal">
+                    <div class="card-icon">💻</div>
+                    <h3>Software Engineering</h3>
+                    <p>
+                        Exploring programming, algorithms, logical
+                        thinking and the principles behind reliable software.
+                    </p>
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>Python</span>
+                    </div>
+                </article>
+
+                <article class="card reveal">
+                    <div class="card-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <p>
+                        Learning to build beautiful, responsive and
+                        interactive websites from the ground up.
+                    </p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="card reveal">
+                    <div class="card-icon">🤖</div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>
+                        Going beyond AI tools to explore the programming,
+                        mathematics and ideas behind intelligent systems.
+                    </p>
+                    <div class="tags">
+                        <span>AI</span>
+                        <span>Machine Learning</span>
+                    </div>
+                </article>
+
+                <article class="card reveal">
+                    <div class="card-icon">📸</div>
+                    <h3>Photography & Media</h3>
+                    <p>
+                        Capturing moments, documenting events and
+                        communicating stories through visual content.
+                    </p>
+                    <div class="tags">
+                        <span>Photography</span>
+                        <span>Media</span>
+                    </div>
+                </article>
+
+                <article class="card reveal">
+                    <div class="card-icon">🎬</div>
+                    <h3>Design & Motion</h3>
+                    <p>
+                        Exploring graphic design, branding, motion graphics
+                        and visual effects.
+                    </p>
+                    <div class="tags">
+                        <span>Design</span>
+                        <span>Animation</span>
+                    </div>
+                </article>
+
+                <article class="card reveal">
+                    <div class="card-icon">🎙️</div>
+                    <h3>Media Production</h3>
+                    <p>
+                        Interested in live production, church media,
+                        audiovisual systems and digital communication.
+                    </p>
+                    <div class="tags">
+                        <span>Production</span>
+                        <span>Content</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects">
+            <div class="section-heading reveal">
+                <span class="eyebrow">03 / MY WORK</span>
+                <h2>Ideas into <span class="gradient">reality.</span></h2>
+                <p>A growing collection of my technical and creative work.</p>
+            </div>
+
+            <div class="grid">
+
+                <article class="project-card reveal">
+                    <div class="project-visual visual-blue">
+                        <span>01</span>
+                        <div class="visual-symbol">{"</>"}</div>
+                        <p>WEB DEVELOPMENT</p>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            An animated personal website built to showcase
+                            my background, interests and growing skills.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <span class="project-status">● Learning project</span>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual visual-purple">
+                        <span>02</span>
+                        <div class="visual-symbol">✦</div>
+                        <p>CREATIVE MEDIA</p>
+                    </div>
+                    <div class="project-info">
+                        <h3>Photography & Events</h3>
+                        <p>
+                            A creative collection for event photography,
+                            visual storytelling and media documentation.
+                        </p>
+                        <div class="tags">
+                            <span>Photography</span>
+                            <span>Editing</span>
+                        </div>
+                        <span class="project-status">● Portfolio collection</span>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual visual-orange">
+                        <span>03</span>
+                        <div class="visual-symbol">✳</div>
+                        <p>DESIGN & BRANDING</p>
+                    </div>
+                    <div class="project-info">
+                        <h3>Visual Design</h3>
+                        <p>
+                            Graphic concepts, branding and promotional
+                            designs for creative and communication projects.
+                        </p>
+                        <div class="tags">
+                            <span>Graphics</span>
+                            <span>Branding</span>
+                        </div>
+                        <span class="project-status">● Creative work</span>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="projects-note reveal">
+                This portfolio is a work in progress. More projects will
+                be added as I learn, create and build.
+            </p>
+        </section>
+
+        <!-- Goals section -->
+        <section id="goals">
+            <div class="section-heading reveal">
+                <span class="eyebrow">04 / THE VISION</span>
+                <h2>Always <span class="gradient">evolving.</span></h2>
+                <p>Where I'm directing my energy.</p>
+            </div>
+
+            <div class="goal-list">
+
+                <div class="goal reveal">
+                    <span>01</span>
+                    <div>
+                        <h3>Build strong foundations</h3>
+                        <p>Develop solid programming and problem-solving skills.</p>
+                    </div>
+                </div>
+
+                <div class="goal reveal">
+                    <span>02</span>
+                    <div>
+                        <h3>Create real-world projects</h3>
+                        <p>Turn what I learn into useful applications and websites.</p>
+                    </div>
+                </div>
+
+                <div class="goal reveal">
+                    <span>03</span>
+                    <div>
+                        <h3>Understand AI deeply</h3>
+                        <p>Explore the principles and code behind intelligent systems.</p>
+                    </div>
+                </div>
+
+                <div class="goal reveal">
+                    <span>04</span>
+                    <div>
+                        <h3>Grow creatively</h3>
+                        <p>Keep improving my photography, design and media skills.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact">
+            <div class="contact-box reveal">
+                <span class="eyebrow">05 / GET IN TOUCH</span>
+
+                <h2>Let's build something<br>
+                    <span class="gradient">meaningful.</span>
+                </h2>
+
+                <p>
+                    Interested in technology, photography, media or
+                    creative collaboration? Let's connect.
+                </p>
+
+                <div class="buttons contact-buttons">
+
+                    <!-- Replace with your real email -->
+                    <a class="btn primary"
+                       href="mailto:YOUR_EMAIL@example.com?subject=Portfolio%20Enquiry">
+                        ✉ Email Me
+                    </a>
+
+                    <!-- Replace with your actual Instagram username -->
+                    <a class="btn secondary"
+                       href="https://www.instagram.com/YOUR_USERNAME/"
+                       target="_blank" rel="noopener noreferrer">
+                        Instagram ↗
+                    </a>
+
+                    <!-- Replace with your actual LinkedIn profile URL -->
+                    <a class="btn secondary"
+                       href="https://www.linkedin.com/in/YOUR_LINKEDIN/"
+                       target="_blank" rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="#home" class="logo">TESH<span>.</span></a>
+        <p>Curiosity. Creativity. Code.</p>
+        <p>© <span id="year"></span> Tesh Moses. Built with purpose.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Animated typing effect
+        const words = [
+            "Software Engineering",
+            "Web Development",
+            "Creative Media",
+            "Photography",
+            "Artificial Intelligence"
+        ];
+
+        const typing = document.getElementById("typing");
+
+        let wordIndex = 0;
+        let letterIndex = 0;
+        let deleting = false;
+
+        function typeEffect() {
+            const word = words[wordIndex];
+
+            letterIndex += deleting ? -1 : 1;
+            typing.textContent = word.substring(0, letterIndex);
+
+            let delay = deleting ? 40 : 80;
+
+            if (!deleting && letterIndex === word.length) {
+                deleting = true;
+                delay = 1300;
+            } else if (deleting && letterIndex === 0) {
+                deleting = false;
+                wordIndex = (wordIndex + 1) % words.length;
+                delay = 350;
+            }
+
+            setTimeout(typeEffect, delay);
+        }
+
+        typeEffect();
+
+        // Reveal elements as they enter the screen
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+
+        document.querySelectorAll(".reveal").forEach((element) => {
+            observer.observe(element);
+        });
+
+        // Mobile navigation menu
+        const menuToggle = document.getElementById("menuToggle");
+        const navLinks = document.getElementById("navLinks");
+
+        menuToggle.addEventListener("click", () => {
+            const isOpen = navLinks.classList.toggle("open");
+
+            menuToggle.setAttribute("aria-expanded", isOpen);
+            menuToggle.setAttribute(
+                "aria-label",
+                isOpen ? "Close navigation menu" : "Open navigation menu"
+            );
+            menuToggle.textContent = isOpen ? "✕" : "☰";
+        });
+
+        // Close mobile menu after clicking a navigation link
+        navLinks.querySelectorAll("a").forEach((link) => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("open");
+                menuToggle.setAttribute("aria-expanded", "false");
+                menuToggle.setAttribute("aria-label", "Open navigation menu");
+                menuToggle.textContent = "☰";
+            });
+        });
+
+        // Automatically update copyright year
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>
